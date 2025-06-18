@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:44479",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "S:\\Time tracker\\TimeTracker\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
