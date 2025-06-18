@@ -1,0 +1,13 @@
+S:\Time tracker\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+S:\Time tracker\DataLayer\bin\Debug\net6.0\DataLayer.dll
+S:\Time tracker\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+S:\Time tracker\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+S:\Time tracker\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+S:\Time tracker\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+S:\Time tracker\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+S:\Time tracker\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+S:\Time tracker\DataLayer\obj\Debug\net6.0\DataLayer.dll
+S:\Time tracker\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
+S:\Time tracker\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+S:\Time tracker\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll
+S:\Time tracker\DataLayer\obj\Debug\net6.0\DataLayer.sourcelink.json
