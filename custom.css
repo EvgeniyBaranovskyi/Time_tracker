@@ -1,0 +1,505 @@
+body {
+  font-family: 'Lato';
+  color: #424242;
+}
+
+.header {
+  border-bottom: 2px solid #F2F2F2;
+}
+
+.content-box {
+  width: 100%;
+  margin: 0;
+}
+
+.login-form {
+  max-width: 400px;
+}
+
+.field-validation-error {
+  color: red;
+  font-size: small;
+}
+
+.bg-grey {
+  background-color: #f4f5f9;
+}
+
+.btn {
+  border-radius: 12px;
+  border: none;
+  padding: 6px 30px;
+}
+
+.approvers-picker div[class*="-control"],
+textarea,
+select,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  border-radius: 12px !important;
+  background-color: #F4F5F9 !important;
+  border: none !important;
+}
+
+.approvers-picker div[class*="-control"]:focus-within,
+textarea:focus,
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  background-color: #EFF0F2 !important;
+  box-shadow: none !important;
+  outline: 0 none;
+  border: none !important;
+}
+
+th {
+  user-select: none;
+}
+
+.login-page-content {
+  max-width: 400px;
+}
+
+.login-image {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #64B5F6 !important;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #42A5F5 !important;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #90A4AE !important;
+  border: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
+  background-color: #78909C !important;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #B0BEC5 !important;
+  border: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
+  background-color: #90A4AE !important;
+  border: none;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #F4F5F9 !important;
+  box-shadow: none;
+}
+
+.navigation-link {
+  display: block;
+  padding: 16px 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link-active,
+.btn-link:hover {
+  color: #42A5F5 !important;
+  cursor: pointer !important;
+}
+
+.navigation-link-icon {
+  margin-right: 10px;
+}
+
+.top-panel {
+  width: 100%;
+  border-bottom: 3px solid #F4F5F9;
+  padding: 10px 0;
+}
+
+.top-panel-container {
+  padding: 0 40px;
+}
+
+.header-name {
+  font-size: 20px;
+}
+
+.page {
+  margin-top: 16px;
+  padding: 0 40px;
+}
+
+.sorting-inactive {
+  color: gray;
+  opacity: 0.25;
+}
+
+.alert {
+  border: none;
+  border-radius: 12px;
+}
+
+ul.pagination {
+  user-select: none;
+  display: flex;
+  gap: 0.1em;
+  padding: 0;
+  margin: 0;
+}
+
+ul.pagination a {
+  color: black;
+  padding: 0.35em 0.7em;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: auto;
+  transition: background-color 0.25s ease;
+}
+
+ul.pagination li:not(.rc-pagination-disabled):not(.rc-pagination-item-active) a:hover {
+  background-color: rgba(128, 128, 128, 0.15);
+  cursor: pointer;
+}
+
+ul.pagination .rc-pagination-item-active a {
+  color: white !important;
+  background-color: #64B5F6;
+}
+
+.approvers-picker div[class*="-control"] {
+  min-height: auto;
+}
+
+.approvers-picker div[class*="-placeholder"] {
+  margin-left: 5px !important;
+}
+
+.approvers-picker #react-select-2-input {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+
+.admin-checkbox-group .form-group {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0;
+}
+
+.admin-checkbox-group label {
+  user-select: none;
+  margin: 0;
+}
+
+.hidden-marker {
+  color: #B0BEC5;
+  margin-left: 0.5em;
+}
+
+.sortableColumn {
+  cursor: pointer;
+}
+
+.btn-sm {
+  padding: 6px 16px;
+}
+
+td,
+th {
+  vertical-align: middle;
+}
+
+td.action-buttons {
+  text-align: end;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #64B5F6;
+}
+
+.color-green {
+  color: #43A047 !important;
+}
+
+.color-red {
+  color: #D32F2F !important;
+}
+
+.color-orange {
+  color: #FF9800 !important;
+}
+
+.alert-secondary {
+  background-color: #F4F5F9 !important;
+}
+
+/*worktime*/
+
+.worktime-button {
+  margin-left: 105px;
+}
+
+.start-message {
+  margin-left: 165px;
+}
+
+.worktime-container {
+  position: relative;
+  margin-left: 35px;
+}
+
+.fixed-size-button {
+  width: 100px;
+  height: 36px;
+}
+
+.start-button {
+  position: absolute;
+  top: 172px;
+  transform: translate(-50%, -50%);
+  margin-left: 6rem;
+}
+
+.session-start-message {
+  top: 180px;
+  transform: translate(-50%, -50%);
+  margin-left: 6rem;
+}
+
+.session-start-message .alert {
+  background: rgba(46, 139, 87, 0.7);
+  padding: 0.2rem;
+}
+
+.session-start-message p {
+  padding: 0.25rem;
+}
+
+.session-start-message {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.session-start-message .alert {
+  background: rgba(46, 139, 87, 0.7);
+}
+
+.calendarRuleModal>.modal-dialog {
+  max-width: 800px;
+}
+
+.recurringFrequencyInput {
+  margin-top: 28px;
+}
+
+.form-check-input {
+  border-color: #424242 !important;
+}
+
+.form-check-input:checked {
+  background-color: #42A5F5 !important;
+  border-color: #42A5F5 !important;
+  color: #D32F2F;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}
+
+.form-check-input:active {
+  background-color: #42A5F5 !important;
+}
+
+.calendarRuleException {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 12px;
+  background-color: #F4F5F9;
+  padding: 4px 15px;
+}
+
+.tag-close-btn {
+  padding: 0 0 4px 4px;
+  color: #424242;
+}
+
+.table-action-button {
+  padding: 0;
+}
+
+.table-action-button:hover,
+.table-action-button:active,
+.table-action-button:visited {
+  color: #42A5F5 !important;
+}
+
+.nav-item a {
+  padding: 2px 60px 2px 60px;
+  border-radius: 20px 20px 0 0 !important;
+  border-bottom: 1px solid #F4F5F9;
+  color: inherit;
+}
+
+.nav-item .active {
+  border-color: #F4F5F9 !important;
+  background-color: #F4F5F9 !important;
+}
+
+.nav-item a:hover {
+  border-color: #F4F5F9 !important;
+  background-color: #F4F5F9 !important;
+  cursor: pointer !important;
+  color: inherit;
+}
+
+.nav-link:hover {
+  cursor: pointer !important;
+}
+
+.remove-filter-button {
+  border-radius: 12px;
+  background-color: #F4F5F9;
+  padding: 4px 15px;
+}
+
+/* react-calendar start*/
+
+.react-calendar__tile {
+  background-color: white;
+  border: none;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #BDBDBD !important;
+}
+
+.calendar-full-size .react-calendar__tile {
+  padding: 20px;
+  cursor: default;
+}
+
+.calendar-full-size .react-calendar__navigation__label {
+  min-width: 180px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  text-align: center;
+}
+
+.calendar-non-working-day {
+  color: #D32F2F;
+}
+
+.calendar-holiday {
+  color: #FFA000;
+}
+
+.calendar-holiday .calendar-tile-tooltip {
+  background-color: #FFA000;
+}
+
+.calendar-short-day {
+  color: #4CAF50;
+}
+
+.calendar-short-day .calendar-tile-tooltip {
+  background-color: #4CAF50;
+}
+
+.calendar-tile-tooltip {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+.react-calendar__navigation {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.react-calendar__navigation button {
+  border: none;
+}
+
+.react-calendar__navigation button {
+  border: none;
+}
+
+.react-calendar__navigation__label {
+  color: white;
+  background-color: #64B5F6;
+  padding: 6px 30px;
+  border-radius: 12px;
+}
+
+.react-calendar__navigation__arrow {
+  color: #424242;
+  background-color: white;
+  padding: 6px 10px;
+}
+
+.react-calendar__navigation__arrow:hover {
+  color: #64B5F6;
+}
+
+/* react-calendar end*/
